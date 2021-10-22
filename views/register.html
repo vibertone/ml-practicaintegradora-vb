@@ -13,7 +13,22 @@
     <title>Mercado Liebre</title>
 </head>
 <body>
-<header></header>
+<header>
+    
+    <div class="container-h">
+    <i class="heather-elem1"><img src="/fuentes/img/logo-mercado-liebre.svg" class="logo" alt="Logo"></i>
+    
+   </div>   
+                          
+    <ul class="nav-bar">
+        <li><a href="">Ofertas</a></li>
+        
+        <li class="li2"></li>
+
+        <li><a href="">Mis compras  </a><i class="fas fa-shopping-basket"></i></li>
+        <li><a href="">Ayuda</a></li>
+
+    </ul></header>
 <main>
  <section >
     <form action="POST"></form>
@@ -30,15 +45,26 @@
         <label for="Domicilio"></label>
         <input type="text" id="Domicilio" placeholder="Domicilio">
         <h4>Perfil del usuario</h4>
-        <div>
-            <label for="rad1">Voy a Comprar</label>
-            <input type="radio" id="rad1" name="perfil" value="Comprar" >
-            <label for="rad1">Voy a Vender</label>
-            <input type="radio" id="rad2" name="perfil" value="Vender" >
+        <div class="perfil">
+        <form action="/action_page.php">
+
+            <input type="radio" id="Comprar" name="perfil" value="Comprar">
+            <label for="Comprar">Voy a comprar</label><br>
+            <input type="radio" id="Vender" name="perfil" value="Vender">
+            <label for="Vender">Voy a vender</label><br>
+
+          
+            <br> 
         </div>
-        <h4>Mis intereses</h4>
-        <div>
-                <input type="checkbox" id="cbx1" name="categorias" value="Electro">
+        
+        <button type="submit" >Guardar</button>
+        
+ 
+  
+ 
+ <!-- <div>
+           <h4>Mis intereses</h4>            
+                 <input type="checkbox" id="cbx1" name="categorias" value="Electro">
                 <label for="cbx1"> Electro</label><br>
                 <input type="checkbox" id="cbx2" name="categorias" value="Moda">
                 <label for="cbx2"> Moda</label><br>
@@ -55,7 +81,7 @@
             Enviar
         </button>
     </div>
-
+-->
   
 </section>   
 </main>    
