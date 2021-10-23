@@ -18,73 +18,90 @@
     <div class="container-h2">
     <i class="heather-elem1"><img src="/fuentes/img/logo-mercado-liebre.svg" class="logo" alt="Logo"></i>
     
-   </div>   
+        </div>   
                           
-    <ul class="nav-bar">
-        <li><a href="">Ofertas</a></li>
+            <ul class="nav-bar2">
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Mis compras  </a><i class="fas fa-shopping-basket"></i></li>
+                <li><a href="">Ayuda</a></li>
         
-        <li class="li2"></li>
-
-        <li><a href="">Mis compras  </a><i class="fas fa-shopping-basket"></i></li>
-        <li><a href="">Ayuda</a></li>
-        
-    </ul>
-    <div class="burg"> <a href="#" class="burger-menu" ><i class="fas fa-bars"></i></a> </div> 
-
+             </ul>
+     <div class="burg"> <a href="#" class="burger-menu" ><i class="fas fa-bars"></i></a> </div> 
+     <div class="spc"></div>       </div>
 </header>
 <main>
  <section >
     <form action="POST"></form>
     <div class="register"> 
-        <h4>Datos Personales</h4>
+        <h2>Datos Personales</h2>
         <label for="Nombre"></label>
         <input type="text" id="Nombre" placeholder="Nombre y apellido">
         <label for="User"></label>
-        <input type="text" id="User" placeholder="Nombre de usuario" >
+        <input type="text" id="User" placeholder="Usuario" >
         <label for="Mail"></label>
         <input type="email" id="email" placeholder="E-mail">
-        <h4>Fecha de nacimiento</h4>
+        <label for="Fecha">Fecha de Nacimiento</label>
         <input type="date">
         <label for="Domicilio"></label>
         <input type="text" id="Domicilio" placeholder="Domicilio">
-        <h4>Perfil del usuario</h4>
+        <h2>Perfil del usuario</h2>
         <div class="perfil">
-        <form action="/action_page.php">
+             <p class="select"><input type="radio" id="Comprar" name="perfil" value="Comprar">
+             <label for="Comprar">Voy a comprar</label>
+              </p>
+             <p class="select"> <input type="radio" id="Vender" name="perfil" value="Vender">
+               <label for="Vender">Voy a vender</label>
+               </p>                     
+         </div>
+         <h2>Tus intereses</h2>
+         <div class="perfil2">
+             <div>
+                <input type="checkbox" id="Ele" name="Perfil" value="ELE">
+                <label for="Ele"> Electro</label><br>
+             </div>
+            <div>
+                <input type="checkbox" id="Mda" name="Perfil" value="Car">
+                <label for="Mda"> Moda</label><br>
 
-            <input type="radio" id="Comprar" name="perfil" value="Comprar">
-            <label for="Comprar">Voy a comprar</label><br>
-            <input type="radio" id="Vender" name="perfil" value="Vender">
-            <label for="Vender">Voy a vender</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="Hgr" name="Perfil" value="Hogar">
+                <label for="Hgr"> Hogar</label><br>
 
-          
-            <br> 
+            </div>
+            <div>
+                <input type="checkbox" id="Jgt" name="Perfil" value="Jugueteria">
+                <label for="Jgt"> Juguetería</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="Vds" name="Perfil" value="Vida Sana">
+                <label for="Vds"> Vida Sana</label><br>
+
+            </div>
+            
+         </div>
+         <h2>Para terminar</h2>
+         <div class="perfil3">
+            <div>
+            <label for="Pas1"></label>
+            <input type="password" id="Pas1" placeholder="Contraseña">
+            <label for="Pas2"></label>
+            <input type="password" id="Nombre" placeholder="Repite tu Contraseña">
+            </div></div>
+        <h2>Selecciona tu foto</h2>
+        <div>
+            <label for="File"></label>
+            <input type="file" name="" id="File">
         </div>
-        
-        <button type="submit" >Guardar</button>
-        
- 
-  
- 
- <!-- <div>
-           <h4>Mis intereses</h4>            
-                 <input type="checkbox" id="cbx1" name="categorias" value="Electro">
-                <label for="cbx1"> Electro</label><br>
-                <input type="checkbox" id="cbx2" name="categorias" value="Moda">
-                <label for="cbx2"> Moda</label><br>
-                <input type="checkbox" id="cbx3" name="categorias" value="Hogar">
-                <label for="cbx3"> Hogar</label><br>
-                <input type="checkbox" id="cbx4" name="categorias" value="Jugueteria">
-                <label for="cbx4"> Jugueteria</label><br>
-                <input type="checkbox" id="cbx5"name="categorias" value="Vida sana">
-                <label for="cbx5"> Vida sana</label><br>
-        </div>
-               
-        <label for="Enviar"></label>
-        <button>
-            Enviar
-        </button>
+    
+        <div class="fin">
+            <button type="submit" >Guardar</button>
+           <button type="reset">Borrar todo</button>
     </div>
--->
+   
+
+
+  
   
 </section>   
 </main>    
