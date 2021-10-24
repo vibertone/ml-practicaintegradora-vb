@@ -201,7 +201,7 @@ h4{display:none;}
                     align-content: space-between;
                     margin-left: 40px;}
 
-                input{width: 40%;
+                input{width: 50%;
                         padding: 20px;
                         margin: 40px;
                         border: gray 0%;
@@ -221,7 +221,9 @@ h4{display:none;}
                 }
                 .perfil3 {
                     display: flex;
-                    margin: 12px;
+                    flex-direction: column;
+                    align-content: space-between;
+                    justify-items: center;
                     flex-wrap: wrap;
                     align-content: center;
                     align-items: center;
@@ -229,12 +231,15 @@ h4{display:none;}
                 
                     .fin{display: flex;margin-top: 30px;}
 
-                input.date{font-size: smaller;color: gray; opacity:1}
+                input[type=date]{font-size: small;color: gray; opacity:1;background-color: white;}
                 input[type=checkbox] {height: 30px; width: 30px; margin: 2px;}
                 input[type=radio] {width: 30px;margin: 2px;}
-                label{height: 10px;width: 200px   ;font: gray 2px; font-size: smaller; margin: 10px 0 5px 2px }
-                ::placeholder{font-size: xx-small;color: gray; opacity:1;margin:0%;padding: 0%;}
-                
+                input [type=password] {width: 40px; }
+                input[type=file] {width: 150px; height: 50px ;border-radius: 5px;font-size: small;color: gray; opacity:1;background-color: white;}
+            
+                label{height: 10px;width: 200px;font: gray 2px; font-size: smaller; margin: 10px 0 5px 2px }
+                ::placeholder{font-size: small;color: gray; opacity:1;margin:0%;padding: 0%;}
+                .check{display: flex; align-items: center;}
                 .select{display: flex; flex-direction: row;}
 
 

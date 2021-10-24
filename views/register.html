@@ -35,15 +35,15 @@
     <div class="register"> 
         <h2>Datos Personales</h2>
         <label for="Nombre"></label>
-        <input type="text" id="Nombre" placeholder="Nombre y apellido">
+        <input type="text" id="Nombre" placeholder="Nombre y apellido" minlength="3">
         <label for="User"></label>
-        <input type="text" id="User" placeholder="Usuario" >
+        <input type="text" id="User" placeholder="Usuario"minlength="3" >
         <label for="Mail"></label>
-        <input type="email" id="email" placeholder="E-mail">
+        <input type="email" id="email" placeholder="E-mail" minlength="3">
         <label for="Fecha">Fecha de Nacimiento</label>
         <input type="date">
         <label for="Domicilio"></label>
-        <input type="text" id="Domicilio" placeholder="Domicilio">
+        <input type="text" id="Domicilio" placeholder="Domicilio" minlength="3">
         <h2>Perfil del usuario</h2>
         <div class="perfil">
              <p class="select"><input type="radio" id="Comprar" name="perfil" value="Comprar">
@@ -55,25 +55,25 @@
          </div>
          <h2>Tus intereses</h2>
          <div class="perfil2">
-             <div>
+             <div class="check">
                 <input type="checkbox" id="Ele" name="Perfil" value="ELE">
                 <label for="Ele"> Electro</label><br>
              </div>
-            <div>
+            <div class="check">
                 <input type="checkbox" id="Mda" name="Perfil" value="Car">
                 <label for="Mda"> Moda</label><br>
 
             </div>
-            <div>
+            <div class="check">
                 <input type="checkbox" id="Hgr" name="Perfil" value="Hogar">
                 <label for="Hgr"> Hogar</label><br>
 
             </div>
-            <div>
+            <div class="check">
                 <input type="checkbox" id="Jgt" name="Perfil" value="Jugueteria">
                 <label for="Jgt"> Juguetería</label><br>
             </div>
-            <div>
+            <div class="check">
                 <input type="checkbox" id="Vds" name="Perfil" value="Vida Sana">
                 <label for="Vds"> Vida Sana</label><br>
 
@@ -81,12 +81,13 @@
             
          </div>
          <h2>Para terminar</h2>
-         <div class="perfil3">
+         <div class="register">
             <div>
             <label for="Pas1"></label>
-            <input type="password" id="Pas1" placeholder="Contraseña">
+            <input type="password" id="Pas1" placeholder="Contraseña" minlength="3">
+            <div class="spc"></div>
             <label for="Pas2"></label>
-            <input type="password" id="Nombre" placeholder="Repite tu Contraseña">
+            <input type="password" id="Nombre" placeholder="Repite tu Contraseña" minlength="3">
             </div></div>
         <h2>Selecciona tu foto</h2>
         <div>
